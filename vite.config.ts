@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'poduction' ? '/vue3-pwa/' : './',
+  base: '/vue3-pwa/',
   build: {
     outDir: 'docs',
   },
