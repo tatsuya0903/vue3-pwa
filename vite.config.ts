@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-pwa/',
+  build: {
+    outDir: 'docs',
+  },
   plugins: [vue()],
   resolve: {
     alias: {
