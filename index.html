@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script>
-      const url = sessionStorage.getItem('REDIRECT_URL')
-      sessionStorage.removeItem('REDIRECT_URL')
-      if (url !== null && url !== location.href) {
-        history.replaceState(null, null, url)
-      }
-    </script>
+    <title>Vuetify 3 Vite Preview</title>
   </head>
+
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
