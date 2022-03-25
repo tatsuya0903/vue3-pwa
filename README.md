@@ -1,3 +1,5 @@
+[![build-test](https://github.com/tatsuya0903/vue3-pwa/actions/workflows/build-test.yml/badge.svg)](https://github.com/tatsuya0903/vue3-pwa/actions/workflows/build-test.yml)
+
 # Vue3+PWA(テンプレート)
 
 This template should help get you started developing with Vue 3 in Vite.
