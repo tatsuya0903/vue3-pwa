@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/vue3-pwa/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <meta name="description" content="Your app description">
+    <link rel="icon" href="/vue3-pwa/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/vue3-pwa/favicon.ico" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/vue3-pwa/apple-touch-icon.png" sizes="180x180">
+    <link rel="mask-icon" href="/vue3-pwa/favicon.svg" color="#FFFFFF">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+      const url = sessionStorage.getItem('REDIRECT_URL')
+      sessionStorage.removeItem('REDIRECT_URL')
+      if (url !== null && url !== location.href) {
+        history.replaceState(null, null, url)
+      }
+    </script>
+    <script type="module" crossorigin src="/vue3-pwa/assets/index.7f3f0797.js"></script>
+    <link rel="stylesheet" href="/vue3-pwa/assets/index.a0cd05f4.css">
+  <link rel="manifest" href="/vue3-pwa/manifest.webmanifest"></head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
+</html>
